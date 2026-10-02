@@ -1,0 +1,94 @@
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+# Jupyter / IPython
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# AI Models / Large Files
+# ==============================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.ggml
+
+# ==============================
+# Hugging Face / Model Cache
+# ==============================
+huggingface/
+HuggingFace/
+.huggingface/
+.cache/
+.cache/huggingface/
+
+# ==============================
+# RAG / Vector Database
+# ==============================
+rag/chroma_db/
+chroma_db/
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Training Output
+# ==============================
+training/output/
+training/checkpoints/
+training/runs/
+runs/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Node / Frontend
+# ==============================
+node_modules/
+dist/
+build/
+.vite/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.swp
